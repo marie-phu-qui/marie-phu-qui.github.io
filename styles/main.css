@@ -1,10 +1,12 @@
 body {
     background: ghostwhite;
     font-family: serif;
+    border: 5px solid goldenrod;
 }
 
 h1, h2{
-    color: #707070;
+    color:#000000;
+    text-align: right;
 }
 
 a {
@@ -14,4 +16,9 @@ a {
 p {
     color: grey;
     padding: 5px 10px;
+}
+
+li {
+    color: black;
+    font-size: 20px;
 }
