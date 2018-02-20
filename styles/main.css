@@ -1,7 +1,7 @@
 body {
-    background: ghostwhite;
+    background: rgb(241, 241, 241);
     font-family: serif;
-    border: 5px solid goldenrod;
+    border: 3px solid goldenrod;
 }
 
 h1, h2{
