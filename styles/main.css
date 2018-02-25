@@ -29,6 +29,8 @@ a {
 .button {
     color: goldenrod;
     font-size: 25px;
+    letter-spacing: 0.2em;
+    text-align: center;
 }
 
 p {
