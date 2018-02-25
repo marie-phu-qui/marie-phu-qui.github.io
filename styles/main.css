@@ -6,12 +6,24 @@ body {
     padding: 20px;
 }
 
-h1, h2{
+h1, h2, h3{
     color:#000000;
     text-align: right;
 }
 
+.title {
+    font-weight: 400;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
 a {
+    color: goldenrod;
+}
+
+.button {
     color: goldenrod;
 }
 
