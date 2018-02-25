@@ -36,3 +36,36 @@ li {
     color: black;
     font-size: 20px;
 }
+
+#margin {
+    background: rgb(241, 241, 241);
+    padding: 45px;
+    width: 75%;
+    position: relative;
+    border: 2px solid grey;
+}
+
+#border {
+    background: goldenrod;
+    padding: 45px;
+    width: 100%;
+    position: relative;
+}
+
+#padding {  
+    background: rgb(241, 241, 241);  
+    padding: 45px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#content {
+    color: grey;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgb(241, 241, 241);
+    border: 2px solid #grey;
+}
