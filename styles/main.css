@@ -1,6 +1,6 @@
 body {
     background: rgb(241, 241, 241);
-    font-family: serif;
+    font-family: "Mukta Malar", sans-serif;
     margin:30px;
     border: 3px solid goldenrod;
     padding: 20px;
@@ -13,10 +13,13 @@ h1, h2, h3{
 
 .title {
     font-weight: 400;
+    font-size: 30px;
 }
 
 .subtitle {
     font-style: italic;
+    font-weight: 350;
+    font-size: 25px;
 }
 
 a {
@@ -25,16 +28,23 @@ a {
 
 .button {
     color: goldenrod;
+    font-size: 25px;
 }
 
 p {
     color: grey;
     padding: 5px 10px;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 li {
     color: black;
     font-size: 20px;
+}
+
+.list {
+    font-size: 15px;
 }
 
 #margin {

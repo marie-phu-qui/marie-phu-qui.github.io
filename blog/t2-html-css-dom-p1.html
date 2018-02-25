@@ -24,13 +24,21 @@
         </div>
         <div><h2 class:"subtitle">What are HTML, CSS and the DOM</h2>
                 <h3>A non technical description</h3>
-                    <p>The <p><em>HTML</em> is the structure of the webpage. We can think about it as the skeleton. The browser will interpret the HTML without CSS file linked to it with basic styling (font, different margin and size from title to text for exemple).</p>
-                    <p>The<em>CSS</em> is its looks and shape. We can think about it as the size of the muscles, the color of the hair, skin...</p>
+                    <p>The <em>HTML</em> is the structure of the webpage. We can think about it as the skeleton. The browser will interpret the HTML without CSS file linked to it with basic styling (font, different margin and size from title to text for exemple).</p>
+                    <p>The <em>CSS</em> is its looks and shape. We can think about it as the size of the muscles, the color of the hair, skin...</p>
                     <p>The <em>DOM</em> is the tree interpretation of the HTML code by the browser. It looks like a family tree with bigger elements followed by their children (reflecting the identation of the code).</p>
         <div><h2 class:"subtitle">What is meant by boxifying design?</h2></div>
             <p>Boxifying the design of a webpage helps to understand its HTML structure. Every element is a box, that can contain other boxes. By boxifying it in hour head (or on paper, or on a graphic visualisation program) we can see its main branches (in the DOM) and following those to possibly try to recreate it ourselves.</p>
         <div><h2 class:"subtitle">What is the box model?</h2></div>
-            <p>blablabla</p>
+            <p>The box model is thinking of your tag element as a box with multiple layers. The first outside layer is the margin, then you get the border, then the padding and then your actual content (text for exemple). It may seem like a lot of unuseful layers that no-one would use, but it is actually very important visualy. Without CSS properties of margein, border, padding, the brower would define a style for them anyway because they are necessary for a confortable viewing.</p>
+            <div id="box-model">
+                <div id="margin">margin
+                    <div id="border">border
+                        <div id="padding">padding
+                            <div id="content">CONTENT</div>
+                    </div>
+                </div>
+            </div>
         <div class="button">
             <a href="/index.html">
                 <p>Home</p>
