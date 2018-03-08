@@ -1,0 +1,1 @@
+This is a page to be build while focusing on Phase 0 of EDA's web developper bootcamp.
