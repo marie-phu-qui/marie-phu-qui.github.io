@@ -1,4 +1,4 @@
-/*-- Index --*/
+/*-- Broad --*/
 
 body {
     background: rgb(241, 241, 241);
@@ -8,9 +8,23 @@ body {
 }
 
 h1, h2, h3 {
+    font-family: "Anton", sans-serif;
     color:#000000;
     text-align: right;
 }
+
+a {
+    color: goldenrod;
+}
+
+.button {
+    color: goldenrod;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+/*-- Index --*/
 
 .title {
     font-weight: 400;
@@ -23,15 +37,13 @@ h1, h2, h3 {
     font-size: 25px;
 }
 
-a {
-    color: goldenrod;
-}
-
 .button-primary {
-    color: goldenrod;
-    font-size: 25px;
-    letter-spacing: 0.2em;
+    background-color: goldenrod;
+    color: grey;
+    font-size: 30px;
+    padding: 0.3em;
     text-align: center;
+    margin: 1em;
 }
 
 p {
@@ -39,6 +51,12 @@ p {
     padding: 5px 10px;
     font-weight: 300;
     font-size: 15px;
+}
+
+.section description {
+    text-align: center;
+    margin: 5em;
+    padding: 5em;
 }
 
 li {
@@ -76,5 +94,9 @@ li {
     border: 2px solid grey;
 }
 
+#main title {
+    text-align: left;
+    font-size: 2em;
+}
 
 /*-- Blog --*/
