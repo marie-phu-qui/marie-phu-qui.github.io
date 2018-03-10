@@ -206,11 +206,11 @@ li {
     border-radius: 0 0 4px 4px;
     border-bottom-width: 0; }
 .popover-link:hover {
-    color: #fff;
-    background: #33C3F0; }
+    color: whitesmoke;
+    background: goldenrod; }
 .popover-link:hover,
 .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #33C3F0; }
+    border-bottom-color: goldenrod; }
 }
 
 /*-- Blog --*/
