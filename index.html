@@ -20,13 +20,18 @@
 </head>
 
 <body>
-    <div class='container'>
+    <div class='container-fluid'>
 <!-- Main title -->
         <section>
             <header>
-                <div class='row main-title'>
-                    <div class='twelve columns'>
-                        <h1 id='main-title'>Marie Nguyen Phu Qui's Website</h1>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='two-thirds column main-title'>
+                            <h1 id='main-title'>Marie Nguyen Phu Qui's Website</h1>
+                        </div>
+                        <div class='one-third column'>
+                            <h2><a href='https://github.com/marie-phu-qui'>Github</a></h2>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -37,7 +42,7 @@
         <section>
             <div class="row">
                 <nav class='navbar'>
-                    <div class='five columns blog-nav'>
+                    <div class='five columns blog-nav u-pull-left'>
                         <header>
                             <h2>Blog</h2>
                         </header>
@@ -56,7 +61,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class='five columns tech-nav'>
+                    <div class='five columns tech-nav u-pull-right'>
                         <header>
                             <h2>Tech</h2>
                         </header>
@@ -76,32 +81,18 @@
             </div>
         </section>
 
-        <section>
-            <div class='row'>
-                <nav>
-                    <div class='two columns contact-nav'>
-                        <header>
-                            <h2>Github</h2>
-                        </header>
-                            <a class='button, button-primary' href='https://github.com/marie-phu-qui'>Github</a>
-                    </div>
-                </nav>
-            </div>
-        </section>
-
         <hr>
 
 <!-- Description -->
         <section>
-            <div class='section description'>
-                <div class='container'>
-                    <div class='row'>
-                        <div class='eight columns'>
-                            <p>
-                                This is a page to be build while focusing on Phase 0 of EDA's web developper bootcamp.
-                            </p>
-                        </div>
-                    </div>
+            <div class='row'>
+                <div class='twelve columns' id='description'>
+                    <header>
+                        <h2>Description</h2>
+                    </header>
+                    <p>
+                        This is a page to be build while focusing on Phase 0 of EDA's web developper bootcamp.
+                    </p>
                 </div>
             </div>
         </section>
@@ -145,10 +136,16 @@
 
 <!-- Footer -->
         <section>
-            <div class='section footer'>
+            <div class='footer'>
                 <div class='row'>
+                    <div class='five columns'>
+                        <p></p>
+                    </div>
                     <div class='two columns'>
                         <p>Not a finished work</p>
+                    </div>
+                    <div class='five columns'>
+                        <p></p>
                     </div>
                 </div>
             </div>
