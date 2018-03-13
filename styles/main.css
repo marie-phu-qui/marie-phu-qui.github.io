@@ -42,7 +42,7 @@ nav.primary ul, nav.primary ul li {
 }
 
 nav.primary ul li {
-    display: inline;
+    display: block;
     position: relative;
 }
 
@@ -53,6 +53,11 @@ nav.primary ul li a{
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 0.2em;
+    padding: 8px;
+}
+
+nav.primary ul li a:hover{
+    background: #cccccc;
 }
 
 /*Desktop sized screen*/
