@@ -45,4 +45,7 @@ hr {
     #main-title {
         width : 100%;
     }
+    .navbar {
+        padding-left: 5px;
+    }
 }
