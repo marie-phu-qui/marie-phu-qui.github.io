@@ -47,6 +47,7 @@ nav.primary ul li {
 }
 
 nav.primary ul li a{
+    font-family: "Mukta Malar", sans-serif;
     display: inline-block;
     line-height: 48px;
     color: goldenrod;
@@ -66,7 +67,7 @@ nav.primary ul ul {
 /* fades in upon hovering */
     opacity: 0;
     filter: alpha(opacity(0));
-    transition: all 1.8s ease-in-out;
+    transition: all 1.8s ease;
 
     position: absolute;
     z-index:999;
