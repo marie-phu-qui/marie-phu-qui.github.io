@@ -58,8 +58,14 @@ nav.primary ul li a{
 }
 
 nav.primary ul li a:hover{
-    background: #cccccc;
+    color: #cccccc;
+    background: goldenrod;
     cursor: pointer;
+}
+
+nav.primary ul li:hover >a{
+    color: #cccccc;
+    background: goldenrod;
 }
 
 /* sub menu nav bar */
