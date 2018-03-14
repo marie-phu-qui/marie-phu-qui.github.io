@@ -15,13 +15,14 @@ body {
     line-height: 24px;
 }
 
-h1#main-title {
+#mobile-title {
     font-size: 20px;
     font-weight: 900;
 }
 
-h2{
-    font-size: 16px;
+h1, h2, h3{
+    color:#000000;
+    text-align: right;
 }
 
 hr {
@@ -31,6 +32,16 @@ hr {
 .footer {
     text-align: center;
 }
+
+button.home-button {
+    background-color: goldenrod;
+    color: #cccccc;
+    font-family: "Mukta Malar", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    
+}
+
 
 /*Index page*/
 
@@ -122,7 +133,7 @@ nav.primary ul ul li a {
 /*Desktop sized screen*/
 
 /*Index page*/
-@media screen and (min-width: 550px) {
+@media (min-width: 550px) {
 
 /*Navigation index*/
     .mobile-navbar{
@@ -139,7 +150,7 @@ nav.primary ul ul li a {
     #desktop-title {
         display: inline-block;
         font-family: 'Montserrat', sans-serif;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 900;
         letter-spacing: 0.5rem;
         text-align: right;
