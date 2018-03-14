@@ -36,84 +36,97 @@ hr {
     text-align: center;
 }
 
-
 /*Navigation index*/
-nav.primary ul, nav.primary ul li {
-    margin: 0px;
+.desktop-navbar{
+    display: hidde;
 }
-
-nav.primary ul li {
-    display: inline;
-    position: relative;
-}
-
-nav.primary ul li a{
-    font-family: "Mukta Malar", sans-serif;
+.mobile-navbar{
     display: inline-block;
-    line-height: 48px;
-    color: goldenrod;
-    text-transform: uppercase;
-    font-weight: 200;
-    letter-spacing: 0.2em;
-    padding: 8px 24px 8px 24px;
 }
 
-nav.primary ul li a:hover{
-    color: #cccccc;
-    background: goldenrod;
-    cursor: pointer;
-}
-
-nav.primary ul li:hover >a{
-    color: #cccccc;
-    background: goldenrod;
-}
-
-/* sub menu nav bar */
-nav.primary ul ul {
-/* fades in upon hovering */
-    opacity: 0;
-    filter: alpha(opacity(0));
-    transition: all 1.8s ease;
-
-    position: absolute;
-    z-index:999;
-    background: #F7EDD2;
-    color: #cccccc;
-    min-width: 100%;
-/*hides the menu from reader but not from SEO*/
-    height:0px;
-    overflow: hidden;
-}
-
-nav.primary ul li:hover ul {
-    opacity: 10;
-    filter: alpha(opacity(100));
-    height: auto;
-    overflow: auto;
-}
-
-nav.primary ul ul li {
-    float: none;
-    display: inherit;
-    border-bottom: 1px solid #dbdbdb;  
-}
-
-nav.primary ul ul li a {
-    display: block;
-    line-height: 24px;
-    text-transform: none;
-    white-space: nowrap;
-}
 
 /*Desktop sized screen*/
 /*Index page*/
-@media (min-width :300px){
+@media only screen and (min-width: 300px){
     #main-title {
         width : 100%;
-
     }
-    .navbar {
-        padding-left: 5px;
+/*Navigation index*/
+    .mobile-navbar{
+        display:none;
+    }
+    .desktop-navbar{
+        display: inline-block;
+    }
+    section.navbar{
+        background: #F7EDD2;
+    }
+
+    nav.primary ul, nav.primary ul li {
+        margin: 0px;
+    }
+
+    nav.primary ul li {
+        display: inline;
+        position: relative;
+    }
+
+    nav.primary ul li a{
+        font-family: "Mukta Malar", sans-serif;
+        display: inline-block;
+        line-height: 48px;
+        color: goldenrod;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 0.2em;
+        padding: 8px 24px 8px 24px;
+    }
+
+    nav.primary ul li a:hover{
+        color: #cccccc;
+        background: goldenrod;
+        cursor: pointer;
+    }
+
+    nav.primary ul li:hover >a{
+        color: #cccccc;
+        background: goldenrod;
+    }
+
+    /* sub menu nav bar */
+    nav.primary ul ul {
+    /* fades in upon hovering */
+        opacity: 0;
+        filter: alpha(opacity(0));
+        transition: all 1.8s ease;
+
+        position: absolute;
+        z-index:999;
+        background: #F7EDD2;
+        color: #cccccc;
+        min-width: 100%;
+    /*hides the menu from reader but not from SEO*/
+        height:0px;
+        overflow: hidden;
+    }
+
+    nav.primary ul li:hover ul {
+        opacity: 10;
+        filter: alpha(opacity(100));
+        height: auto;
+        overflow: auto;
+    }
+
+    nav.primary ul ul li {
+        float: none;
+        display: inherit;
+        border-bottom: 1px solid #dbdbdb;  
+    }
+
+    nav.primary ul ul li a {
+        display: block;
+        line-height: 24px;
+        text-transform: none;
+        white-space: nowrap;
     }
 }
