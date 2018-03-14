@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="technical-1-page" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technical blog 1</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div class='container-fluid'>
+        <div class='title'>
+            <h1>Technical blog 1</h1>
+        </div>
+
+        <div>
+            <div class='subtitle'>
+                <h2>CSS properties that I want to implement here later on :</h2>
+            </div>
+            <ul>
+                <li class='list'>element {box-sizing:border-box; display:flex;}</li>
+                <p>
+                    This is a property I discovered via the HTML, CSS Lesson 1 on Udacity and I see how very helpful it is especially when used with the display : flex; property. It gives a much better adaptation of the elements displayed in the page to the size of your window.
+                </p>
+                <li class='list'>element a:hover {...}</li>
+                <p>
+                    This is not a property but I would like to add a different color to my buttons class when they are hovered.
+                </p>
+                <li class='list'>element {transition: all .15s ease}</li>
+                <p>
+                    This is a property that I have seen used for a button. When clicked (the element was as : ".btn, input[type=submit]"), the background of the element would change color as if charging.
+                </p>
+                <li class='list'>element {letter-spacing: ...;}</li>
+                <p>
+                    The property letter-spacing is to my mind one of the best used to make a font look clean and sharp.
+                </p>
+            </ul>
+        </div>
+
+        <div>
+            <div  class='subtitle'>
+                <h2>What are HTML, CSS and the DOM</h2>
+            </div>
+            <h3>A non technical description</h3>
+            <p>
+                The <em>HTML</em> is the structure of the webpage. We can think about it as the skeleton. The browser will interpret the HTML without CSS file linked to it with basic styling (font, different margin and size from title to text for exemple).
+            </p>
+            <p>
+                The <em>CSS</em> is its looks and shape. We can think about it as the size of the muscles, the color of the hair, skin...
+            </p>
+            <p>
+                The <em>DOM</em> is the tree interpretation of the HTML code by the browser. It looks like a family tree with bigger elements followed by their children (reflecting the identation of the code).
+            </p>
+        </div>
+        
+        <div>
+            <div class='subtitle'>
+                <h2>What is meant by boxifying design?</h2>
+            </div>
+            <p>
+                Boxifying the design of a webpage helps to understand its HTML structure. Every element is a box, that can contain other boxes. By boxifying it in hour head (or on paper, or on a graphic visualisation program) we can see its main branches (in the DOM) and following those to possibly try to recreate it ourselves.
+            </p>
+        </div>
+        
+        <div>
+            <div class='subtitle'>
+                <h2>What is the box model?</h2>
+            </div>
+            <p>
+                The box model is thinking of your tag element as a box with multiple layers. The first outside layer is the margin, then you get the border, then the padding and then your actual content (text for exemple). It may seem like a lot of unuseful layers that no-one would use, but it is actually very important visualy. Without CSS properties of margin, border, padding, the brower would define a style for them anyway because they are necessary for a confortable viewing.
+            </p>
+            <div id='box-model'>
+                <div class='margin-box'>margin
+                    <div class='border-box'>border
+                        <div class='padding-box'>padding
+                            <div class='content-box'>CONTENT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='button-primary'>
+            <button class='home-button' href="/index.html">Home</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
