@@ -36,6 +36,7 @@ hr {
     text-align: center;
 }
 
+
 /*Navigation index*/
 nav.primary ul, nav.primary ul li {
     margin: 0px;
@@ -54,7 +55,7 @@ nav.primary ul li a{
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 0.2em;
-    padding: 8px;
+    padding: 8px 24px 8px 24px;
 }
 
 nav.primary ul li a:hover{
@@ -102,6 +103,7 @@ nav.primary ul ul li a {
     display: block;
     line-height: 24px;
     text-transform: none;
+    white-space: nowrap;
 }
 
 /*Desktop sized screen*/
