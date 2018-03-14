@@ -38,6 +38,10 @@ hr {
     text-align: center;
 }
 
+#desktop-title{
+    display: none;
+}
+
 /*Navigation index*/
 .desktop-navbar{
     display: none;
@@ -82,7 +86,7 @@ nav.primary ul ul {
 /* fades in upon hovering */
     opacity: 0;
     filter: alpha(opacity(0));
-    transition: all 1.8s ease;
+    transition: all 0.8s ease;
 
     position: absolute;
     z-index:999;
@@ -120,7 +124,7 @@ nav.primary ul ul li a {
 /*Index page*/
 @media (min-width: 550px) {
     #main-title {
-        font-family: Montserrat, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 48px;
         font-weight: 900;
         letter-spacing: 0.5rem;
@@ -133,8 +137,12 @@ nav.primary ul ul li a {
         display: inline-block;
     }
 
-    #mobile-contact {
+    #mobile-title {
         display: none;
+    }
+
+    #desktop-title {
+        display: inline-block;
     }
 
     nav.primary ul, nav.primary ul li {
