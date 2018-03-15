@@ -45,9 +45,10 @@ button.home-button {
 
 /*Index page*/
 
-#description{
+#description, h2{
     text-align: center;
 }
+
 
 #desktop-title{
     display: none;
@@ -127,6 +128,16 @@ nav.primary ul ul li a {
     line-height: 24px;
     text-transform: none;
     white-space: nowrap;
+}
+
+/* Blog page Mobile */
+.title{
+    text-align:left;
+
+}
+
+.subtitle{
+    text-align: left;
 }
 
 
@@ -222,5 +233,15 @@ nav.primary ul ul li a {
         line-height: 24px;
         text-transform: none;
         white-space: nowrap;
+    }
+
+/* Blog page Mobile */
+    .title{
+        text-align:right;
+
+    }
+
+    .subtitle{
+        text-align: right;
     }
 }
