@@ -25,6 +25,10 @@ h1, h2, h3{
     text-align: right;
 }
 
+ul {
+    list-style-type: none;
+  }
+  
 hr {
     height: 5px;
 }
