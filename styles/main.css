@@ -61,7 +61,8 @@ pre {
 /* Images */
 
 .img-wireframe img {
-    width:100%;
+    width: 100%;
+    min-width: 350px;
     max-width: 450px;
     margin-top: 10px;
     display: block;
