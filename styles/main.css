@@ -40,7 +40,21 @@ hr {
     text-align: center;
 }
 
-button.home-button {
+.button-primary button.home-button{
+    background-color: goldenrod;
+    color: #cccccc;
+    font-family: "Mukta Malar", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button-primary button.home-button:active{
     background-color: goldenrod;
     color: #cccccc;
     font-family: "Mukta Malar", sans-serif;
@@ -163,7 +177,7 @@ nav.primary ul ul li a {
 }
 
 .subtitle h2{
-    text-align: left;
+    text-align: right;
     font-size: 1.3em;
 }
 
@@ -295,7 +309,7 @@ nav.primary ul ul li a {
     }
 
     .subtitle h2{
-        text-align: left;
+        text-align: right;
         font-size: 1.5em;
     }
 
