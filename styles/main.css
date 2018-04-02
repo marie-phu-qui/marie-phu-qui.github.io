@@ -43,6 +43,7 @@ button.home-button {
     font-family: "Mukta Malar", sans-serif;
     font-size: 28px;
     letter-spacing: 0.2em;
+    display: inline-block;
     text-align: center;
 }
 
