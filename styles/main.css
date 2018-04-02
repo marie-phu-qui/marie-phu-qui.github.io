@@ -20,10 +20,6 @@ body {
     font-weight: 900;
 }
 
-h1, h2, h3{
-    color:#000000;
-    text-align: right;
-}
 
 ul {
     padding: 0;
@@ -37,7 +33,8 @@ ul {
 }
   
 hr {
-    height: 5px;
+    height: 2px;
+    background-color: goldenrod;
 }
 
 .footer {
@@ -143,20 +140,21 @@ nav.primary ul ul li a {
 }
 
 /* Blog page Mobile */
-.title{
+.title h1{
     text-align:left;
-
+    font-size: 1.5em;
+    line-height: 1.2;
 }
 
-.subtitle{
+.subtitle h2{
     text-align: left;
+    font-size: 1.3em;
 }
 
 
 /*Desktop sized screen*/
-
-/*Index page*/
 @media (min-width: 550px) {
+/*Index page*/
 
 /*Navigation index*/
     .mobile-navbar{
@@ -247,13 +245,15 @@ nav.primary ul ul li a {
         white-space: nowrap;
     }
 
-/* Blog page Mobile */
-    .title{
+/* Blog page Desktop */
+    .title h1{
         text-align:right;
-
+        font-size: 2em;
+        line-height: 1.2;
     }
 
-    .subtitle{
-        text-align: right;
+    .subtitle h2{
+        text-align: left;
+        font-size: 1.5em;
     }
 }
