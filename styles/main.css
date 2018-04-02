@@ -49,6 +49,7 @@ button.home-button {
     letter-spacing: 0.2em;
     display: inline-block;
     text-align: center;
+    margin-top: 30px;
 }
 
 
@@ -151,6 +152,32 @@ nav.primary ul ul li a {
     font-size: 1.3em;
 }
 
+/* Box Model */
+#box-model .margin-box {
+    background: rgb(241, 241, 241);
+    padding: 45px 50px 50px 10px;
+    width: 50%;
+    border: 2px solid grey;
+}
+
+#box-model .border-box {
+    background: goldenrod;
+    padding: 5px 40px 40px 10px;
+}
+
+#box-model .padding-box {  
+    background: rgb(241, 241, 241);  
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#box-model .content-box {
+    position: relative;
+    background: goldenrod;
+    border: 2px solid grey;
+}
 
 /*Desktop sized screen*/
 @media (min-width: 550px) {
