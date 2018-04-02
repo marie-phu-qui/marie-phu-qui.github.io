@@ -46,21 +46,23 @@ button.home-button {
     font-family: "Mukta Malar", sans-serif;
     font-size: 28px;
     letter-spacing: 0.2em;
-    display: inline-block;
+    display: block;
     text-align: center;
     margin-top: 30px;
-}
-
-/* Images */
-.img-wireframe {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
+pre {
+    background-color: #d1d0cf;
+}
+
+/* Images */
+
 .img-wireframe img {
     width:100%;
-    max-width:300px;
+    max-width: 450px;
     margin-top: 10px;
     display: block;
 }
@@ -294,5 +296,13 @@ nav.primary ul ul li a {
     .subtitle h2{
         text-align: left;
         font-size: 1.5em;
+    }
+
+/* Images */
+    .img-wireframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
     }
 }
