@@ -319,10 +319,18 @@ nav.primary ul ul li a {
     }
 
 /* Images */
-    .img-wireframe {
+    .row.img-wireframe{
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+
+    .img-wireframe .u-max-full-width img{
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        display: block;
+        max-width: 450px;
+        display:block;
     }
 }
