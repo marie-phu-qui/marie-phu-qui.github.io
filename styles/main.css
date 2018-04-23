@@ -317,14 +317,15 @@ nav.primary ul ul li a {
         text-align: right;
         font-size: 1.5em;
     }
+}
 
+@media (min-width: 900px) {
 /* Images */
     .row.img-wireframe{
         width: 100%;
         display:flex;
         flex-wrap: wrap;
     }
-
 
     .img-wireframe .u-max-full-width img{
         margin-left: auto;
