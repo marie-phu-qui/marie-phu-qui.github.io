@@ -5,9 +5,13 @@
   "repository": "https://github.com/marie-phu-qui/marie-phu-qui.github.io.git",
   "author": "marie-phu-qui <marie.nguyen.phu.qui@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index"
+  },
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "node": "^10.8.0"
+    "node": "^10.8.0",
+    "nodemon": "^1.18.3"
   }
 }
